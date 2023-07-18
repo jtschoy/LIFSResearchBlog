@@ -153,10 +153,7 @@ def convert_bib_to_html(bib_file):
     with open(bib_file,"r",encoding="utf8") as bibtex_file:
         bib_database = bibtexparser.load(bibtex_file)
     
-    build_pubs_html(bib_database, '../_includes')
+    build_pubs_html(bib_database, "../_includes")
     build_single_html(bib_database, "../pubs/html")
-
-
-
-convert_bib_to_html('pubs.bib')
-
+    
+convert_bib_to_html("pubs.bib")
