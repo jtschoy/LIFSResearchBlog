@@ -20,7 +20,6 @@ At the booth of the Department of Forensic Information Science and Technology, t
 ![dataset1](/img/news/fair1.jpg)
 
 
-
 The '2023 Hallym Major Fair' was a successful event that offered high school students valuable opportunities to explore careers and discover majors. Hallym University will continue its efforts to provide students with ongoing opportunities for experiential learning in various majors. 
 The aim is to help them make informed decisions about their career paths.
 

@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "SAILER: A Structure-Aware Pre-Trained Model for Legal Case Retrieval"
+title: "Paper Review - SAILER: A Structure-Aware Pre-Trained Model for Legal Case Retrieval"
 author: 2022jeewon
 icon: star-o
 tags: [paper, review]
 ---
-This paper address the critical task of legal case retrieval, which is essential in intelligent legal systems. While pre-training has succeeded in ad-hoc retrieval, effective strategies for legal case retrieval are still questioned. Legal case documents have intricate logical structures, but existing language models struggle with long-distance dependencies and key legal elements. To tackle these issues, this paper proposes SAILER, a Structure-Aware pre-trained Language Model for Legal Case Retrieval. SAILER optimizes retrieval by utilizing structural information, attending to key legal elements, and employing an asymmetric encoder-decoder architecture for pre-training. This model demonstrates strong discrimination capabilities without legal annotation data, distinguishing cases accurately. Experiments show significant improvements over state-of-the-art methods in legal case retrieval.
+This paper address the critical task of legal case retrieval, which is essential in intelligent legal systems.
+
+While pre-training has succeeded in ad-hoc retrieval, effective strategies for legal case retrieval are still questioned. Legal case documents have intricate logical structures, but existing language models struggle with long-distance dependencies and key legal elements. To tackle these issues, this paper proposes SAILER, a Structure-Aware pre-trained Language Model for Legal Case Retrieval. SAILER optimizes retrieval by utilizing structural information, attending to key legal elements, and employing an asymmetric encoder-decoder architecture for pre-training. This model demonstrates strong discrimination capabilities without legal annotation data, distinguishing cases accurately. Experiments show significant improvements over state-of-the-art methods in legal case retrieval.
 
 ### Challenges Addressed
 1. Long Document Structures: Legal case documents are lengthy with inherent logical structures, posing challenges for existing models in capturing long-distance dependencies.
@@ -26,13 +28,14 @@ This paper address the critical task of legal case retrieval, which is essential
 - Fact Encoder: Masks tokens and uses final hidden states for representation. 
   - Use the final hidden state as the representation of the ENTIRE SENTENCE (hf)
 - Reasoning Decoder: Reconstructs aggressively-masked Reasoning text
-  - Aggressively mask tokens (30~60%) NEED to rely heavily on the Fact (hf)
+  - Aggressively mask tokens (30~60%)
+  - NEEDS to rely heavily on the Fact (hf) to recover the masked information
   - Enhance key element attention. 
 - Decision Decoder: Handles legal judgment prediction, masking according to country-specific decision formats.
   - Mask information according to the country’s decision format
   - IF No format -> select words with high TFIDF values to mask
 
-![dataset1](/img/news/sailer_arch.jpg)
+![sailer1](/img/news/sailer_arch.png)
 
 ### Experiments & Result Analysis
 Compares with existing baseline models such as Traditional Retrieval Models, Generic Pre-trained Models, and Retrieval-oriented Pre-trained Models.
@@ -41,7 +44,7 @@ SAILER dataset
 - Chinese : tens of millions of case documents from China Judgment Online
 - English : U.S. federal and state courts
 
-![dataset1](/img/news/sailer_res.jpg)
+![sailer2](/img/news/sailer_res.png)
 
 SAILER Results & Analysis
 - Encoder : High masking ratio prevent generation of high-quality sentence embeddings
@@ -50,7 +53,7 @@ SAILER Results & Analysis
 
 SAILER emphasizes legal terms than SEED(retrieval-oriented model)
 
-![dataset1](/img/news/sailer_study.jpg)
+![sailer3](/img/news/sailer_study.png)
 
 ### Contributions
 
