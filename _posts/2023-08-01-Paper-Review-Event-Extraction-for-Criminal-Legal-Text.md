@@ -30,6 +30,7 @@ It highlighted the specific challenges faced when applying event extraction tech
   - Targeting theft cases
   - Define the five frequent events in a theft case
   - Define event types, event arguments, and the role of event arguments
+<br>
 ![dataset1](/img/news/Criminal_Legal_01.jpg)
 
 - Data Processing
@@ -41,14 +42,15 @@ It highlighted the specific challenges faced when applying event extraction tech
 Data labeling tool: YEDDA
 Labeling scheme: BIO scheme
 
-![dataset1](/img/news/Criminal_Legal_02.png)
+<img src="/img/news/Criminal_Legal_02.png" alt="dataset1" width="50%">
 
 - Event Extraction
   - Pre-trained BERT embeds text to obtain character vectors.
 	→ Input to BiLSTM-CRF model to obtain extraction results.
   - Combine 3 vectors (argument extraction result, related trigger vector, and distance vector) and input to CRF model to extract argument's role 
-![dataset1](/img/news/Criminal_Legal_03.png)
-![dataset1](/img/news/Criminal_Legal_04.png)
+<img src="/img/news/Criminal_Legal_03.png" alt="dataset1" width="60%">
+<img src="/img/news/Criminal_Legal_04.png" alt="dataset1" width="68%">
+
 
 ## Experiments
 
@@ -60,19 +62,21 @@ Labeling scheme: BIO scheme
 		   Extract transition labels using a CRF model
 
 	- Step 2: Use CRF model to extract trigger types and argument types and roles
-![dataset1](/img/news/Criminal_Legal_05.png)
+<img src="/img/news/Criminal_Legal_05.png" alt="dataset1" width="65%">
 
 - Experiment Results
   - training: 10-fold cross-validation method (1 randomized validation set, 9 training sets)
-  - Update weights using Adam Optimizer
-![dataset1](/img/news/Criminal_Legal_06.png)
-![dataset1](/img/news/Criminal_Legal_08.png)
-![dataset1](/img/news/Criminal_Legal_09.png)
-  Event argument extraction results are generally good. The reason for the relatively poor extraction results for location entities is that they have a more irregular representation.
+  - Update weights using Adam Optimizer<br>
+<img src="/img/news/Criminal_Legal_06.png" alt="dataset1" width="70%">
+<img src="/img/news/Criminal_Legal_08.png" alt="dataset1" width="68%">
+<img src="/img/news/Criminal_Legal_09.png" alt="dataset1" width="50%">
+
+
+Event argument extraction results are generally good. The reason for the relatively poor extraction results for location entities is that they have a more irregular representation.
 
 ## Conclusion
 
-- Visualized the extracted event information.
+- Visualized the extracted event information.<br>
 ![dataset1](/img/news/Criminal_Legal_07.jpg)
 - There are some work needs to be done in the future: In terms of the allocation of event elements, this research does not deal well with the case where there are multiple events in the same sentence and the event elements are distributed across sentences.
 - Future work includes breaking the limitations of event templates and applying event extraction techniques to various types of cases.
