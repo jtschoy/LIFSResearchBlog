@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hallym Major Fair"
-author: 2023SeoHee
+author: 2023seohee
 icon: star-o
 tags: [news]
 ---
