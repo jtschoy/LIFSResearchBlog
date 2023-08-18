@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Review - SAILER: A Structure-Aware Pre-Trained Model for Legal Case Retrieval"
+title: "Paper Review - SAILER: A Structure-Aware Pre-Trained Model for Legal Case Retrieval(H Li, 2023)"
 author: 2022jeewon
 icon: star-o
 tags: [paper, review]

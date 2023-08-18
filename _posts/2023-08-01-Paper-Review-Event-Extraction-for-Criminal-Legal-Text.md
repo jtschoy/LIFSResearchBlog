@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Review - Event Extraction for Criminal Legal Text"
+title: "Paper Review - Event Extraction for Criminal Legal Text(Q Li, 2020)"
 author: 2023jinheon
 icon: star-o
 tags: [paper, review]
