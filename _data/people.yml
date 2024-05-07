@@ -17,6 +17,18 @@ profJang:
   image: /img/people/Yunsik.jpg
   bio: "Professor"
 
+profKimH:
+  display_name: "Han Soo, Kim"
+  role: faculty
+  image: /img/people/Derek.jpg
+  bio: "Professor"
+
+profKimJ:
+  display_name: "Jion, Kim"
+  role: faculty
+  image: /img/people/Jion.png
+  bio: "Professor"
+
 # profJames:
 #     display_name: "Joshua I. James (조슈아)"
 #     webpage: "https://dfir.science"
