@@ -14,7 +14,7 @@ profAhn:
 profJang:
   display_name: "Yun Sik, Jang"
   role: faculty
-  image: /img/people/Yunsik.png
+  image: /img/people/Yunsik.jpg
   bio: "Professor"
 
 # profJames:
@@ -64,13 +64,6 @@ profJang:
   bio: "AI-based Crime Investigation System"
   image: /img/people/Jiwon.jpg
 
-2022yerin:
-  display_name: "박예린 (Yerin, Park)"
-  role: grad
-  course: MSc Course
-  bio: "AI-based Crime Investigation System"
-  image: /img/people/Yerin.jpg
-
 2023keecheol:
   display_name: "김기철 (Kee-Cheol, Kim)"
   role: grad
@@ -85,6 +78,40 @@ profJang:
   course: MSc Course
   bio: "AI-based Crime Investigation System"
   image: /img/people/Jinheon.jpg
+
+2023myunghoon:
+  display_name: "우명훈 (Myung Hoon, Woo)"
+  role: grad
+  course: MSc Course
+  bio: "AI-based Crime Investigation System"
+  image: /img/people/Myunghoon.jpg
+
+2021siwon:
+  display_name: "김시원 (Si Won, Kim)"
+  role: grad
+  course: MSc Course
+  bio: "AI-based Crime Investigation System"
+  image: /img/people/SiWon.png
+
+2023donghwan:
+  display_name: "김동환 (DongHwan, Kim)"
+  role: grad
+  course: MSc Course
+  bio: "AI-based Crime Investigation System"
+  image: /img/people/DongHwan.jpg
+
+2023ahyeoung:
+  display_name: "이아영 (Ahyeong, Lee)"
+  role: grad
+  course: MSc Course
+  bio: "AI-based Crime Investigation System"
+  image: /img/people/Ahyeong.jpg
+
+2023june:
+  display_name: "최준명 (June, Tschoy)"
+  role: staff
+  bio: MSc Candidate
+  image: /img/people/Staff.jpg
 
 2019yoonjun:
   display_name: "이윤정 (Yoon-Jung, Lee)"
@@ -177,23 +204,12 @@ profJang:
   image: /img/people/Tony.jpg
   linkedin: https://linkedin.com/in/tonyjokeapart
 
-2023myunghoon:
-  display_name: "우명훈 (Myung Hoon, Woo)"
-  role: staff
-  bio: "Administrator"
-  image: /img/people/Myunghoon.jpg
-
-2021siwon:
-  display_name: "김시원 (Si Won, Kim)"
-  role: staff
-  bio: "Undergraduate"
-  image: /img/people/Staff.jpg
-  
-2023seohee:
-  display_name: "김서희 (Seo Hee, Kim)"
-  role: staff
-  bio: "Undergraduate"
-  image: /img/people/Staff.jpg
+2022yerin:
+  display_name: "박예린 (Yerin, Park)"
+  role: alum
+  bio: "Msc, 2021"
+  image: /img/people/Yerin.jpg
+  linkedin:
 
 HancomGMD:
   display_name: "Hancom GMD"
