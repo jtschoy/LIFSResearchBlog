@@ -21,7 +21,7 @@ tags: [news]
 ![](/img/news/10-2.png)
 
 <p align="center">
-  <em>Figure 2: Professor Park No-Seop along with faculty and other stakeholders are observing the booth.</em>
+  <em>Figure 2: Professor Park Ro-Seop along with faculty and other stakeholders are observing the booth.</em>
 </p>
 
 ![](/img/news/10-3.png)
